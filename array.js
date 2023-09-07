@@ -4,7 +4,11 @@ const numTwo = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 
 //map
 
+let mapResult = number.map((x) => {
+    return 1 + x;
+});
 
+console.log(mapResult);
 
 
 //concate
